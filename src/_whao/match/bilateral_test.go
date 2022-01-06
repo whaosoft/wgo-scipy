@@ -8,7 +8,7 @@ import (
 /**
 
  */
-func TestLeastSquares(t *testing.T) {
+func TestBilateralReverse(t *testing.T) {
 
 	var strArr []string
 
