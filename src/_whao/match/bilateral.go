@@ -56,11 +56,15 @@ func Reverse(str []string,len,from int){
 		//
 		tmparr:=str[from-len+1 : from+1]
 		tmpstr = getstring(&tmparr)
-	} else {
+	}
+	//没什么用测半天也没得这个的时候
+	/*
+	else {
 		tmparr:=str[0 : from+1]
 		//fmt.Println("from",from)
 		tmpstr = getstring(&tmparr)
 	}
+	*/
 
 	//fmt.Println("==",tmpstr)
 	if len ==SLIDING_WINDOW{
