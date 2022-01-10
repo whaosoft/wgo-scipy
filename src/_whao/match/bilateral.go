@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	SLIDING_WINDOW int = 5 // 滑动窗口个数
+	SLIDING_WINDOW int = 5 // 滑动窗口个数  //应该为词典,最长词组字数
 	//LEMMA = "计算语言学课程有意思"
 	LEMMA = "南京市长江大桥欢迎您"
 	SEPARATION = "--"
